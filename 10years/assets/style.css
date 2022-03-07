@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@300&family=Montserrat:ital,wght@0,200;0,300;0,400;1,200&family=Nunito:wght@200;300;400&family=Ubuntu:wght@300&display=swap');
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    font-size:1.3em;
+    font-family: 'Nunito', sans-serif;
+    color:black;
+}
+a:hover{
+    background-color: aquamarine;
+    padding:0.5em;
+    border-radius:8px;
+}
+.nav{
+    display: flex;
+    justify-content:space-between;
+    margin:1em 10em;
+}
+.nav .logo img{
+    height:5em;
+    width:5em;
+}
+.links ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.links ul li{
+    list-style: none;
+    margin-left:2em;
+}
+.main{
+    min-height:60vh;
+    height:70vh;
+    width:100%;
+    background:url('background.jpeg') no-repeat center center;
+    background-size:cover;
+}
+.main form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+   margin-left:20em;
+ color:white;
+}
+.main form input{
+    background-color: transparent;
+    outline: none;
+    border:none;
+    border-bottom:2px solid aqua;
+    padding:1em;
+    color:white;
+    font-family: 'Montserrat', sans-serif;
+    font-size:1em;
+    width:18em;
+}
+.main form textarea{
+    background-color: white;
+    outline: none;
+    border:none;
+   margin-top:1em;
+    padding:1em;
+    color:black;
+    font-family: 'Montserrat', sans-serif;
+    font-size:1em;
+    width:30em;;
+}
+.main form button{
+    padding:1.2em;
+    margin-top:0.5em;
+    background: aqua;
+    outline:none;
+    border:none;
+    border-radius:8px;
+    transition:0.5s ease;
+ width:20em;
+}
+.main form button:hover{
+    transform:scale(1.2);
+    cursor: pointer;
+}
+.about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin:0 10em;
+}
+.about .img img{
+    height:35em;
+    width:28em;
+    border-radius: 8px;;
+}
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-left:5em;
+    font-family: 'Dosis', sans-serif;
+    font-size:1.5em;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+    margin:2em 20em;
+ 
+}
+
+.footer ul li{
+    list-style: none;
+    font-family: 'Nunito', sans-serif;
+}
+h1{
+    margin-top:1.5em;
+    text-align: center;
+    font-family: 'Nunito', sans-serif;
+    font-size: 2em;;
+}
